@@ -50,8 +50,8 @@ jobs:
 
     - name: Test
       run: |
-        echo "Running capital_cities_game.exe..."
-        .\capital_cities_game.exe < NUL
+        echo "Running capital_cities_game.exe in non-interactive mode..."
+        .\capital_cities_game.exe --non-interactive
       shell: cmd
 
     - name: Upload artifact
