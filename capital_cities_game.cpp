@@ -6,6 +6,8 @@
 #include <random>
 #include <chrono>
 #include <sstream>
+#include <stdexcept>
+#include <filesystem>
 
 struct CityCountryPair {
     std::string country, capital, continent;
@@ -17,14 +19,23 @@ class CapitalCitiesGame {
     std::mt19937 rng;
 
     void loadData() {
+        std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
         std::ifstream file("capital_cities.txt");
-        if (!file.is_open()) { std::cerr << "Error: Unable to open file\n"; exit(1); }
+        if (!file.is_open()) {
+            std::cerr << "Error: Unable to open file capital_cities.txt" << std::endl;
+            std::cerr << "Trying to open from parent directory..." << std::endl;
+            file.open("../capital_cities.txt");
+            if (!file.is_open()) {
+                throw std::runtime_error("Error: Unable to open capital_cities.txt");
+            }
+        }
 
         std::string line;
         while (std::getline(file, line)) {
             auto pair = parseLine(line);
             if (!pair.country.empty()) data.push_back(pair);
         }
+        std::cout << "Loaded " << data.size() << " city-country pairs." << std::endl;
     }
 
     CityCountryPair parseLine(const std::string& line) {
@@ -106,6 +117,7 @@ public:
 
     void run(bool interactive = true) {
         if (!interactive) {
+            std::cout << "Running in non-interactive mode..." << std::endl;
             playGame(1);
             return;
         }
@@ -132,7 +144,12 @@ public:
 };
 
 int main(int argc, char* argv[]) {
-    CapitalCitiesGame game;
-    game.run(argc < 2 || std::string(argv[1]) != "--non-interactive");
+    try {
+        CapitalCitiesGame game;
+        game.run(argc < 2 || std::string(argv[1]) != "--non-interactive");
+    } catch (const std::exception& e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
+        return 1;
+    }
     return 0;
 }
