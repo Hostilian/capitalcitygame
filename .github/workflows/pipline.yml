@@ -18,8 +18,30 @@ jobs:
       with:
         platform: x64
 
+    - name: Check MinGW installation
+      run: |
+        g++ --version
+        where g++
+      shell: cmd
+
+    - name: List directory contents
+      run: dir
+      shell: cmd
+
     - name: Build
       run: g++ -std=c++11 -o capital_cities_game.exe capital_cities_game.cpp
+      shell: cmd
+
+    - name: List directory contents after build
+      run: dir
+      shell: cmd
 
     - name: Test
-      run: ./capital_cities_game.exe
+      run: .\capital_cities_game.exe
+      shell: cmd
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: capital-cities-game
+        path: capital_cities_game.exe
