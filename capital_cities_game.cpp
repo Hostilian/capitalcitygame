@@ -9,6 +9,7 @@
 #include <stdexcept>
 #include <filesystem>
 
+// Data structure to hold country-capital pairs and their variations
 struct CityCountryPair {
     std::string country, capital, continent;
     std::vector<std::string> countryVariations, capitalVariations;
@@ -18,6 +19,7 @@ class CapitalCitiesGame {
     std::vector<CityCountryPair> data;
     std::mt19937 rng;
 
+    // Load data from file, handling potential file access issues
     void loadData() {
         std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
         std::ifstream file("capital_cities.txt");
@@ -38,6 +40,7 @@ class CapitalCitiesGame {
         std::cout << "Loaded " << data.size() << " city-country pairs." << std::endl;
     }
 
+    // Parse a single line of input data
     CityCountryPair parseLine(const std::string& line) {
         CityCountryPair pair;
         std::istringstream iss(line);
@@ -59,6 +62,7 @@ class CapitalCitiesGame {
         return pair;
     }
 
+    // Check if user's answer matches the correct answer or its variations
     bool isCorrectAnswer(const std::string& userAnswer, const std::string& correctAnswer, const std::vector<std::string>& variations) {
         auto normalize = [](std::string s) {
             s.erase(remove_if(s.begin(), s.end(), ispunct), s.end());
@@ -70,6 +74,7 @@ class CapitalCitiesGame {
         return std::any_of(variations.begin(), variations.end(), [&](const std::string& var) { return normalizedUser == normalize(var); });
     }
 
+    // Main game loop
     void playGame(int mode, const std::string& selectedContinent = "") {
         std::vector<int> indices;
         for (int i = 0; i < data.size(); ++i)
@@ -115,6 +120,7 @@ class CapitalCitiesGame {
 public:
     CapitalCitiesGame() : rng(std::chrono::steady_clock::now().time_since_epoch().count()) { loadData(); }
 
+    // Main game entry point
     void run(bool interactive = true) {
         if (!interactive) {
             std::cout << "Running in non-interactive mode..." << std::endl;
