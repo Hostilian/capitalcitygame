@@ -27,7 +27,12 @@ jobs:
     - name: List directory contents
       run: |
         dir
-        type capital_cities.txt
+        if exist capital_cities.txt (
+          echo Content of capital_cities.txt:
+          type capital_cities.txt
+        ) else (
+          echo capital_cities.txt not found
+        )
       shell: cmd
 
     - name: Build
