@@ -1,165 +1,165 @@
-United States;Washington, D.C.;North America
-Canada;Ottawa;North America
-Mexico;Mexico City;North America
-Brazil;Brasília;South America
-Argentina;Buenos Aires;South America
-United Kingdom;London;Europe
-France;Paris;Europe
-Germany;Berlin;Europe
-Italy;Rome;Europe
-Spain;Madrid;Europe
-Russia;Moscow;Europe
-China;Beijing;Asia
-Japan;Tokyo;Asia
-India;New Delhi;Asia
-Australia;Canberra;Australia
-New Zealand;Wellington;Australia
-Egypt;Cairo;Africa
-South Africa;Pretoria;Africa
-Nigeria;Abuja;Africa
-Kenya;Nairobi;Africa
-Saudi Arabia;Riyadh;Asia
-Turkey;Ankara;Asia
-Greece;Athens;Europe
-Sweden;Stockholm;Europe
-Norway;Oslo;Europe
-Finland;Helsinki;Europe
-Denmark;Copenhagen;Europe
-Netherlands;Amsterdam;Europe
-Belgium;Brussels;Europe
-Austria;Vienna;Europe
-Switzerland;Bern;Europe
-Portugal;Lisbon;Europe
-Ireland;Dublin;Europe
-Poland;Warsaw;Europe
-Czech Republic;Prague;Europe
-Hungary;Budapest;Europe
-Romania;Bucharest;Europe
-Bulgaria;Sofia;Europe
-Ukraine;Kyiv;Europe
-Belarus;Minsk;Europe
-Lithuania;Vilnius;Europe
-Latvia;Riga;Europe
-Estonia;Tallinn;Europe
-Serbia;Belgrade;Europe
-Croatia;Zagreb;Europe
-Slovenia;Ljubljana;Europe
-Slovakia;Bratislava;Europe
-Bosnia and Herzegovina;Sarajevo;Europe
-Montenegro;Podgorica;Europe
-North Macedonia;Skopje;Europe
-Albania;Tirana;Europe
-Morocco;Rabat;Africa
-Algeria;Algiers;Africa
-Tunisia;Tunis;Africa
-Libya;Tripoli;Africa
-Sudan;Khartoum;Africa
-Ethiopia;Addis Ababa;Africa
-Somalia;Mogadishu;Africa
-Ghana;Accra;Africa
-Senegal;Dakar;Africa
-Côte d'Ivoire;Yamoussoukro;Africa
-Cameroon;Yaoundé;Africa
-Mali;Bamako;Africa
-Burkina Faso;Ouagadougou;Africa
-Niger;Niamey;Africa
-Chad;N'Djamena;Africa
-Uganda;Kampala;Africa
-Tanzania;Dodoma;Africa
-Rwanda;Kigali;Africa
-Burundi;Gitega;Africa
-Madagascar;Antananarivo;Africa
-Mozambique;Maputo;Africa
-Zimbabwe;Harare;Africa
-Zambia;Lusaka;Africa
-Angola;Luanda;Africa
-Democratic Republic of the Congo;Kinshasa;Africa
-Republic of the Congo;Brazzaville;Africa
-Gabon;Libreville;Africa
-Central African Republic;Bangui;Africa
-South Sudan;Juba;Africa
-Eritrea;Asmara;Africa
-Djibouti;Djibouti;Africa
-Iran;Tehran;Asia
-Iraq;Baghdad;Asia
-Syria;Damascus;Asia
-Lebanon;Beirut;Asia
-Israel;Jerusalem;Asia
-Jordan;Amman;Asia
-Kuwait;Kuwait City;Asia
-Bahrain;Manama;Asia
-Qatar;Doha;Asia
-United Arab Emirates;Abu Dhabi;Asia
-Oman;Muscat;Asia
-Yemen;Sana'a;Asia
-Afghanistan;Kabul;Asia
-Pakistan;Islamabad;Asia
-Bangladesh;Dhaka;Asia
-Sri Lanka;Colombo;Asia
-Nepal;Kathmandu;Asia
-Bhutan;Thimphu;Asia
-Myanmar;Naypyidaw;Asia
-Thailand;Bangkok;Asia
-Vietnam;Hanoi;Asia
-Laos;Vientiane;Asia
-Cambodia;Phnom Penh;Asia
-Malaysia;Kuala Lumpur;Asia
-Singapore;Singapore;Asia
-Indonesia;Jakarta;Asia
-Philippines;Manila;Asia
-North Korea;Pyongyang;Asia
-South Korea;Seoul;Asia
-Mongolia;Ulaanbaatar;Asia
-Kazakhstan;Nur-Sultan;Asia
-Uzbekistan;Tashkent;Asia
-Turkmenistan;Ashgabat;Asia
-Kyrgyzstan;Bishkek;Asia
-Tajikistan;Dushanbe;Asia
-Azerbaijan;Baku;Asia
-Georgia;Tbilisi;Asia
-Armenia;Yerevan;Asia
-Papua New Guinea;Port Moresby;Australia
-Fiji;Suva;Australia
-Solomon Islands;Honiara;Australia
-Vanuatu;Port Vila;Australia
-Samoa;Apia;Australia
-Tonga;Nuku'alofa;Australia
-Palau;Ngerulmud;Australia
-Micronesia;Palikir;Australia
-Marshall Islands;Majuro;Australia
-Kiribati;Tarawa;Australia
-Tuvalu;Funafuti;Australia
-Chile;Santiago;South America
-Peru;Lima;South America
-Colombia;Bogotá;South America
-Venezuela;Caracas;South America
-Ecuador;Quito;South America
-Bolivia;La Paz;South America
-Paraguay;Asunción;South America
-Uruguay;Montevideo;South America
-Guyana;Georgetown;South America
-Suriname;Paramaribo;South America
-Iceland;Reykjavík;Europe
-Greenland;Nuuk;North America
-Bermuda;Hamilton;North America
-Bahamas;Nassau;North America
-Cuba;Havana;North America
-Jamaica;Kingston;North America
-Haiti;Port-au-Prince;North America
-Dominican Republic;Santo Domingo;North America
-Puerto Rico;San Juan;North America
-Antigua and Barbuda;Saint John's;North America
-Saint Kitts and Nevis;Basseterre;North America
-Dominica;Roseau;North America
-Saint Lucia;Castries;North America
-Barbados;Bridgetown;North America
-Saint Vincent and the Grenadines;Kingstown;North America
-Grenada;St. George's;North America
-Trinidad and Tobago;Port of Spain;North America
-Panama;Panama City;North America
-Costa Rica;San José;North America
-Nicaragua;Managua;North America
-Honduras;Tegucigalpa;North America
-El Salvador;San Salvador;North America
-Guatemala;Guatemala City;North America
-Belize;Belmopan;North America
+United States,USA,US,America,U.S.A.,U.S.,United States of America,Usa,Estados Unidos,EE.UU.,Amerika;Washington, D.C.,Washington DC,Washington,DC,D.C.,Washington D.C.,Washington District of Columbia,Washington (DC),Capital of USA;North America
+Canada,CAN,Can,Kanada,Canadá;Ottawa,Ottowa,Otawa,Outaouais;North America
+Mexico,MEX,Mex,México,Mejico,Méjico;Mexico City,Ciudad de México,Mexico DF,DF,CDMX,Ciudad de Mexico;North America
+Brazil,Brasil,BRA,Br,Brasile,Brésil,Brasil Federative Republic;Brasília,Brasilia,Brazilia,Brazilia DF,Brasília DF;South America
+Argentina,ARG,Arg,Argentine Republic,Arjantin;Buenos Aires,Buenes Aires,BA,Baires,Capital Federal;South America
+United Kingdom,UK,U.K.,Britain,Great Britain,England,United Kingdom of Great Britain and Northern Ireland,GB,Inglaterra;London,Londres,Londyn,Londen;Europe
+France,FRA,Fr,Francia,République française,Frankreich;Paris,París,Parigi,Pariz,Ville Lumière;Europe
+Germany,DEU,GER,Deutschland,Allemagne,Germania,Niemcy;Berlin,Berlín,Berlino,Berlijn;Europe
+Italy,ITA,Italia,It,Italie,Italien,Италия;Rome,Roma,Rom,Rim;Europe
+Spain,ESP,España,Espagne,Spanien,Espanha;Madrid,Madri,Madryt,Мадрид;Europe
+Russia,RUS,Russian Federation,Rus,Россия,Rossiya,Russland;Moscow,Moskva,Москва,Moscú,Moscou;Europe
+China,CHN,People's Republic of China,PRC,Zhongguo,中国,Chine;Beijing,Peking,北京,Pequim,Pekín;Asia
+Japan,JPN,Nippon,日本,Japon,Giappone,Japón;Tokyo,Tokio,東京,Tōkyō,Tokio;Asia
+India,IND,Bharat,भारत,Hindustan,Inde,Indien;New Delhi,New Dehli,नई दिल्ली,Naī Dillī,Nueva Delhi;Asia
+Australia,AUS,Oz,Aussie,Австралия,Australie;Canberra,Camberra,Канберра,Canberra;Australia
+New Zealand,NZL,NZ,Aotearoa,Nouvelle-Zélande,Neuseeland;Wellington,Wellingtown,Te Whanganui-a-Tara;Australia
+Egypt,EGY,Misr,مصر,Égypte,Ägypten,Egipto;Cairo,Al-Qahirah,القاهرة,Le Caire,El Cairo;Africa
+South Africa,ZAF,SA,RSA,Suid-Afrika,Afrique du Sud,Südafrika;Pretoria,Tshwane,Pretoría,Prétoria;Africa
+Nigeria,NGA,Naija,Nijerya,Nigéria,نيجيريا;Abuja,Abuja FCT,Abuya,أبوجا;Africa
+Kenya,KEN,Kenia,Keňa,كينيا;Nairobi,Nairobi City,نيروبي,Найроби;Africa
+Saudi Arabia,KSA,SA,Kingdom of Saudi Arabia,Al-Mamlakah al-ʿArabīyah as-Saʿūdīyah,السعودية;Riyadh,Ar-Riyad,الرياض,Er Riyad;Asia
+Turkey,TUR,TR,Türkiye,Turkiye,Turquie,Türkei;Ankara,Ancyra,Angora,Ankaram;Asia
+Greece,GRC,GR,Hellas,Ελλάδα,Grèce,Griechenland;Athens,Athina,Αθήνα,Atenas,Athen;Europe
+Sweden,SWE,SE,Sverige,Suède,Schweden;Stockholm,Stockholma,Stoccolma,Estocolmo;Europe
+Norway,NOR,NO,Norge,Norvège,Norwegen;Oslo,Christiania,Kristiania;Europe
+Finland,FIN,FI,Suomi,Finlande,Finnland;Helsinki,Helsingfors,Helsingin;Europe
+Denmark,DNK,DK,Danmark,Danemark,Dänemark;Copenhagen,København,Kopenhagen,Copenhague;Europe
+Netherlands,NLD,NL,Holland,Pays-Bas,Niederlande,Nederland;Amsterdam,Ámsterdam,Amsterdão;Europe
+Belgium,BEL,BE,België,Belgique,Belgien;Brussels,Bruxelles,Brussel,Bruselas;Europe
+Austria,AUT,AT,Österreich,Autriche,Oostenrijk;Vienna,Wien,Vienne,Viena;Europe
+Switzerland,CHE,CH,Schweiz,Suisse,Svizzera,Svizra;Bern,Berne,Berna;Europe
+Portugal,PRT,PT,Portuguesa,Portugalia;Lisbon,Lisboa,Lisbonne,Lissabon;Europe
+Ireland,IRL,IE,Éire,Irlande,Irlanda;Dublin,Baile Átha Cliath,Dublín,Dublino;Europe
+Poland,POL,PL,Polska,Pologne,Polen;Warsaw,Warszawa,Varsovie,Warschau;Europe
+Czech Republic,CZE,CZ,Česko,Tchéquie,Tschechien;Prague,Praha,Praga,Prag;Europe
+Hungary,HUN,HU,Magyarország,Hongrie,Ungarn;Budapest,Budapeszt,Budapesta;Europe
+Romania,ROU,RO,Rumania,Roumanie,Rumänien;Bucharest,București,Bucarest,Bukarest;Europe
+Bulgaria,BGR,BG,Bălgarija,Bulgarie,Bulgarien;Sofia,Sofiya,Софи́я,Sófia;Europe
+Ukraine,UKR,UA,Україна,Ucrania,Ukraina;Kyiv,Kiev,Київ,Kijów;Europe
+Belarus,BLR,BY,Беларусь,Biélorussie,Weißrussland;Minsk,Мінск,Mińsk;Europe
+Lithuania,LTU,LT,Lietuva,Lituanie,Litauen;Vilnius,Vilna,Wilno,Вильнюс;Europe
+Latvia,LVA,LV,Latvija,Lettonie,Lettland;Riga,Rīga,Рига;Europe
+Estonia,EST,EE,Eesti,Estonie,Estland;Tallinn,Tallin,Таллин;Europe
+Serbia,SRB,RS,Србија,Serbien,Serbie;Belgrade,Beograd,Београд,Belgrad;Europe
+Croatia,HRV,HR,Hrvatska,Croatie,Kroatien;Zagreb,Agram,Záhřeb;Europe
+Slovenia,SVN,SI,Slovenija,Slovénie,Slowenien;Ljubljana,Laibach,Lubiana;Europe
+Slovakia,SVK,SK,Slovensko,Slovaquie,Slowakei;Bratislava,Pressburg,Preßburg;Europe
+Bosnia and Herzegovina,BIH,BA,Bosna i Hercegovina,Bosnien und Herzegowina;Sarajevo,Сарајево,Serajevo;Europe
+Montenegro,MNE,ME,Crna Gora,Monténégro,Черногория;Podgorica,Подгорица,Pogdorica;Europe
+North Macedonia,MKD,MK,Северна Македонија,Macédoine du Nord;Skopje,Скопје,Skoplje;Europe
+Albania,ALB,AL,Shqipëria,Albanie,Albanien;Tirana,Tiranë,Тирана;Europe
+Morocco,MAR,MA,Maroc,Marruecos,المغرب;Rabat,Rabatt,الرباط,Ar-Ribāṭ;Africa
+Algeria,DZA,DZ,Algérie,Argelia,الجزائر;Algiers,Alger,الجزائر,Al-Jazā'ir;Africa
+Tunisia,TUN,TN,Tunisie,Túnez,تونس;Tunis,Tunes,تونس,Tūnis;Africa
+Libya,LBY,LY,Libye,Libia,ليبيا;Tripoli,Tripolis,طرابلس,Ṭarābulus;Africa
+Sudan,SDN,SD,Soudan,Sudán,السودان;Khartoum,Hartum,الخرطوم,Al-Khartūm;Africa
+Ethiopia,ETH,ET,Éthiopie,Etiopía,ኢትዮጵያ;Addis Ababa,Addis-Abeba,አዲስ አበባ;Africa
+Somalia,SOM,SO,Somalie,الصومال;Mogadishu,Mogadiscio,مقديشو,Muqdisho;Africa
+Ghana,GHA,GH,Gana,غانا;Accra,Akra,أكرا;Africa
+Senegal,SEN,SN,Sénégal,السنغال;Dakar,Dacar,داكار;Africa
+Côte d'Ivoire,CIV,CI,Ivory Coast,Costa de Marfil;Yamoussoukro,Yamusukro;Africa
+Cameroon,CMR,CM,Cameroun,Camerún,Kamerun;Yaoundé,Yaunde,Jaunde;Africa
+Mali,MLI,ML,Malí,مالي;Bamako,Bamaku,باماكو;Africa
+Burkina Faso,BFA,BF,Bourkina-Fasso;Ouagadougou,Wagadugu,واغادوغو;Africa
+Niger,NER,NE,Níger,النيجر;Niamey,Niamei,نيامي;Africa
+Chad,TCD,TD,Tchad,Tschad,تشاد;N'Djamena,Ndjamena,نجامينا;Africa
+Uganda,UGA,UG,Ouganda,أوغندا;Kampala,Kampala,كامبالا;Africa
+Tanzania,TZA,TZ,Tanzanie,Tanganica,تنزانيا;Dodoma,Dodoma,دودوما;Africa
+Rwanda,RWA,RW,Ruanda,رواندا;Kigali,Kigali,كيغالي;Africa
+Burundi,BDI,BI,Burundi,بوروندي;Gitega,Gitega,غيتيغا;Africa
+Madagascar,MDG,MG,Madagaskar,مدغشقر;Antananarivo,Tananarive,أنتاناناريفو;Africa
+Mozambique,MOZ,MZ,Moçambique,موزمبيق;Maputo,Maputo,مابوتو;Africa
+Zimbabwe,ZWE,ZW,Zimbabue,زيمبابوي;Harare,Harare,هراري;Africa
+Zambia,ZMB,ZM,Zambie,زامبيا;Lusaka,Lusaka,لوساكا;Africa
+Angola,AGO,AO,Angole,أنغولا;Luanda,Loanda,لواندا;Africa
+Democratic Republic of the Congo,COD,CD,DR Congo,RDC,Congo-Kinshasa;Kinshasa,Kinshasa,كينشاسا;Africa
+Republic of the Congo,COG,CG,Congo,Congo-Brazzaville;Brazzaville,Brazzaville,برازافيل;Africa
+Gabon,GAB,GA,Gabón,الغابون;Libreville,Libreville,ليبرفيل;Africa
+Central African Republic,CAF,CF,République centrafricaine,RCA;Bangui,Bangui,بانغي;Africa
+South Sudan,SSD,SS,Soudan du Sud,Südsudan,جنوب السودان;Juba,Djouba,جوبا;Africa
+Eritrea,ERI,ER,Érythrée,إريتريا;Asmara,Asmera,أسمرة;Africa
+Djibouti,DJI,DJ,Yibuti,جيبوتي;Djibouti,Djibuti,جيبوتي;Africa
+Iran,IRN,IR,Irán,إيران;Tehran,Teherán,تهران;Asia
+Iraq,IRQ,IQ,Irak,العراق;Baghdad,Bagdad,بغداد;Asia
+Syria,SYR,SY,Syrie,Siria,سوريا;Damascus,Damasco,دمشق;Asia
+Lebanon,LBN,LB,Liban,Líbano,لبنان;Beirut,Beyrouth,بيروت;Asia
+Israel,ISR,IL,Israël,إسرائيل;Jerusalem,Jerusalén,القدس,Yerushalayim;Asia
+Jordan,JOR,JO,Jordanie,Jordania,الأردن;Amman,Ammán,عمان;Asia
+Kuwait,KWT,KW,Koweït,الكويت;Kuwait City,Ciudad de Kuwait,مدينة الكويت;Asia
+Bahrain,BHR,BH,Bahreïn,Baréin,البحرين;Manama,Manama,المنامة;Asia
+Qatar,QAT,QA,Catar,قطر;Doha,Doha,الدوحة;Asia
+United Arab Emirates,ARE,AE,UAE,Émirats arabes unis,EAU;Abu Dhabi,Abou Dabi,أبو ظبي;Asia
+Oman,OMN,OM,Omán,عمان;Muscat,Mascate,مسقط;Asia
+Yemen,YEM,YE,Yémen,اليمن;Sana'a,Saná,صنعاء;Asia
+Afghanistan,AFG,AF,Afganistán,أفغانستان;Kabul,Kaboul,كابول;Asia
+Pakistan,PAK,PK,Paquistán,باكستان;Islamabad,Islāmābād,إسلام آباد;Asia
+Bangladesh,BGD,BD,Bangladés,بنغلاديش;Dhaka,Dacca,ढाका;Asia
+Sri Lanka,LKA,LK,Srí Lanka,سريلانكا;Colombo,Colomb,கொழும்பு;Asia
+Nepal,NPL,NP,Népal,नेपाल;Kathmandu,Katmandú,काठमाडौं;Asia
+Bhutan,BTN,BT,Bhoutan,Bután,འབྲུག་ཡུལ;Thimphu,Timbu,ཐིམ་ཕུ;Asia
+Myanmar,MMR,MM,Burma,Birmanie,Birmania,မြန်မာ;Naypyidaw,Nay Pyi Taw,နေပြည်တော်;Asia
+Thailand,THA,TH,Thaïlande,Tailandia,ประเทศไทย;Bangkok,Krung Thep,กรุงเทพมหานคร;Asia
+Vietnam,VNM,VN,Viêt Nam,Viet Nam,Việt Nam;Hanoi,Hà Nội,河內;Asia
+Laos,LAO,LA,Lao,ລາວ;Vientiane,Viangchan,ວຽງຈັນ;Asia
+Cambodia,KHM,KH,Cambodge,Camboya,កម្ពុជា;Phnom Penh,Phnôm Penh,ភ្នំពេញ;Asia
+Malaysia,MYS,MY,Malaisie,Malasia,马来西亚;Kuala Lumpur,KL,吉隆坡;Asia
+Singapore,SGP,SG,Singapour,Singapur,新加坡;Singapore,Singapour,新加坡;Asia
+Indonesia,IDN,ID,Indonésie,Indonesien,Indonesia;Jakarta,Djakarta,雅加达;Asia
+Philippines,PHL,PH,Filipinas,Philippinen,Pilipinas;Manila,Maynila,马尼拉;Asia
+North Korea,PRK,KP,Corée du Nord,Corea del Norte,조선민주주의인민공화국;Pyongyang,Pionyang,평양;Asia
+South Korea,KOR,KR,Corée du Sud,Corea del Sur,대한민국;Seoul,Seúl,서울;Asia
+Mongolia,MNG,MN,Mongolie,Mongolei,Монгол улс;Ulaanbaatar,Oulan-Bator,Улаанбаатар;Asia
+Kazakhstan,KAZ,KZ,Kazajistán,Kasachstan,Қазақстан;Nur-Sultan,Astana,Нұр-Сұлтан;Asia
+Uzbekistan,UZB,UZ,Ouzbékistan,Uzbekistán,Oʻzbekiston;Tashkent,Tachkent,Тошкент;Asia
+Turkmenistan,TKM,TM,Turquemenistán,Turkmenistan,Türkmenistan;Ashgabat,Achgabat,Aşgabat;Asia
+Kyrgyzstan,KGZ,KG,Kirghizistan,Kirguistán,Кыргызстан;Bishkek,Bichkek,Бишкек;Asia
+Tajikistan,TJK,TJ,Tadjikistan,Tayikistán,Тоҷикистон;Dushanbe,Douchanbé,Душанбе;Asia
+Azerbaijan,AZE,AZ,Azerbaïdjan,Azerbaiyán,Azərbaycan;Baku,Bakú,Bakı;Asia
+Georgia,GEO,GE,Géorgie,Georgien,საქართველო;Tbilisi,Tiflis,თბილისი;Asia
+Armenia,ARM,AM,Arménie,Armenien,Հայաստան;Yerevan,Ereván,Երևան;Asia
+Papua New Guinea,PNG,PG,Papouasie-Nouvelle-Guinée,Papúa Nueva Guinea;Port Moresby,Port Moresby,Pot Mosbi;Australia
+Fiji,FJI,FJ,Fidji,Fiyi,फ़िजी;Suva,Souva,सुवा;Australia
+Solomon Islands,SLB,SB,Îles Salomon,Islas Salomón;Honiara,Honiara,ホニアラ;Australia
+Vanuatu,VUT,VU,Vanuatú;Port Vila,Port-Vila,ポートビラ;Australia
+Samoa,WSM,WS,Samoa occidentales,Samoa Occidental;Apia,Apia,阿皮亚;Australia
+Tonga,TON,TO,Tonga,Tonga,Tongatapu;Nuku'alofa,Nukualofa,努库阿洛法;Australia
+Palau,PLW,PW,Palaos,Belau,Pelew;Ngerulmud,Melekeok,恩吉魯穆德;Australia
+Micronesia,FSM,FM,Micronésie,Mikronesien;Palikir,Palikir,帕利基尔;Australia
+Marshall Islands,MHL,MH,Îles Marshall,Islas Marshall;Majuro,Majuro,馬朱諾;Australia
+Kiribati,KIR,KI,Kiribati,Kiribati,Quiribati;Tarawa,Tarawa-Sud,塔拉瓦;Australia
+Tuvalu,TUV,TV,Tuvalu,Tuvalu,图瓦卢;Funafuti,Funafuti,富纳富提;Australia
+Chile,CHL,CL,Chili,Chile,チリ;Santiago,Santiago de Chile,サンティアゴ;South America
+Peru,PER,PE,Pérou,Perú,ペルー;Lima,Lima,リマ;South America
+Colombia,COL,CO,Colombie,Columbia,コロンビア;Bogotá,Bogota,ボゴタ;South America
+Venezuela,VEN,VE,Vénézuéla,Venezuele,ベネズエラ;Caracas,Caracas,カラカス;South America
+Ecuador,ECU,EC,Équateur,Ekuador,エクアドル;Quito,Quito,キト;South America
+Bolivia,BOL,BO,Bolivie,Bolivien,ボリビア;La Paz,La Paz,ラパス;South America
+Paraguay,PRY,PY,Paraguay,Paraguai,パラグアイ;Asunción,Asuncion,アスンシオン;South America
+Uruguay,URY,UY,Uruguai,ウルグアイ;Montevideo,Montevidéu,モンテビデオ;South America
+Guyana,GUY,GY,Guyane,Guayana,ガイアナ;Georgetown,Georgetown,ジョージタウン;South America
+Suriname,SUR,SR,Surinam,Suriname,スリナム;Paramaribo,Paramaribo,パラマリボ;South America
+Iceland,ISL,IS,Islande,Islandia,アイスランド;Reykjavík,Reykjavik,レイキャヴィーク;Europe
+Greenland,GRL,GL,Groenland,Grønland,Kalaallit Nunaat;Nuuk,Godthåb,ヌーク;North America
+Bermuda,BMU,BM,Bermudes,Bermudas,バミューダ;Hamilton,Hamilton,ハミルトン;North America
+Bahamas,BHS,BS,Bahamas,Bahama,バハマ;Nassau,Nassau,ナッソー;North America
+Cuba,CUB,CU,Kuba,キューバ;Havana,La Havane,La Habana,ハバナ;North America
+Jamaica,JAM,JM,Jamaïque,Jamaika,ジャマイカ;Kingston,Kingston,キングストン;North America
+Haiti,HTI,HT,Haïti,Haití,ハイチ;Port-au-Prince,Puerto Príncipe,ポルトープランス;North America
+Dominican Republic,DOM,DO,République dominicaine,República Dominicana;Santo Domingo,Saint-Domingue,サントドミンゴ;North America
+Puerto Rico,PRI,PR,Porto Rico,プエルトリコ;San Juan,San Juan,サンフアン;North America
+Antigua and Barbuda,ATG,AG,Antigua-et-Barbuda,Antigua y Barbuda;Saint John's,Saint John's,セントジョンズ;North America
+Saint Kitts and Nevis,KNA,KN,Saint-Christophe-et-Niévès,San Cristóbal y Nieves;Basseterre,Basseterre,バセテール;North America
+Dominica,DMA,DM,Dominique,Dominica,ドミニカ国;Roseau,Roseau,ロゾー;North America
+Saint Lucia,LCA,LC,Sainte-Lucie,Santa Lucía,セントルシア;Castries,Castries,カストリーズ;North America
+Barbados,BRB,BB,Barbade,Barbados,バルバドス;Bridgetown,Bridgetown,ブリッジタウン;North America
+Saint Vincent and the Grenadines,VCT,VC,Saint-Vincent-et-les-Grenadines,San Vicente y las Granadinas;Kingstown,Kingstown,キングスタウン;North America
+Grenada,GRD,GD,Grenade,Granada,グレナダ;St. George's,Saint-Georges,セントジョージズ;North America
+Trinidad and Tobago,TTO,TT,Trinité-et-Tobago,Trinidad y Tobago;Port of Spain,Port d'Espagne,ポートオブスペイン;North America
+Panama,PAN,PA,Panamá,パナマ;Panama City,Ciudad de Panamá,パナマ市;North America
+Costa Rica,CRI,CR,コスタリカ;San José,San Jose,サンホセ;North America
+Nicaragua,NIC,NI,ニカラグア;Managua,Managua,マナグア;North America
+Honduras,HND,HN,ホンジュラス;Tegucigalpa,Tégucigalpa,テグシガルパ;North America
+El Salvador,SLV,SV,エルサルバドル;San Salvador,San Salvador,サンサルバドル;North America
+Guatemala,GTM,GT,グアテマラ;Guatemala City,Ciudad de Guatemala,グアテマラ市;North America
+Belize,BLZ,BZ,Bélize,Belice,ベリーズ;Belmopan,Belmopan,ベルモパン;North America
