@@ -8,6 +8,7 @@
 #include <map>
 #include <chrono>
 #include <iomanip>
+#include <filesystem>
 
 struct CityCountryPair {
     std::string country;
@@ -22,10 +23,17 @@ private:
     std::map<std::string, int> continentScores;
 
     void loadData() {
+        std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
         std::ifstream file("capital_cities.txt");
         if (!file.is_open()) {
             std::cerr << "Error: Unable to open capital_cities.txt" << std::endl;
-            exit(1);
+            std::cerr << "Attempting to open from parent directory..." << std::endl;
+            file.open("../capital_cities.txt");
+            if (!file.is_open()) {
+                std::cerr << "Error: Unable to open ../capital_cities.txt" << std::endl;
+                std::cerr << "Please ensure the file exists and is accessible." << std::endl;
+                exit(1);
+            }
         }
 
         std::string line;
@@ -41,6 +49,7 @@ private:
             }
         }
         file.close();
+        std::cout << "Loaded " << data.size() << " city-country pairs." << std::endl;
     }
 
     void playGame(int mode, const std::string& selectedContinent = "") {
@@ -159,7 +168,12 @@ public:
 };
 
 int main() {
-    CapitalCitiesGame game;
-    game.run();
+    try {
+        CapitalCitiesGame game;
+        game.run();
+    } catch (const std::exception& e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
+        return 1;
+    }
     return 0;
 }

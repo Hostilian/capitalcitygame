@@ -25,11 +25,15 @@ jobs:
       shell: cmd
 
     - name: List directory contents
-      run: dir
+      run: |
+        dir
+        type capital_cities.txt
       shell: cmd
 
     - name: Build
-      run: g++ -std=c++11 -o capital_cities_game.exe capital_cities_game.cpp
+      run: |
+        g++ -std=c++17 -o capital_cities_game.exe capital_cities_game.cpp
+        if %errorlevel% neq 0 exit /b %errorlevel%
       shell: cmd
 
     - name: List directory contents after build
@@ -37,11 +41,15 @@ jobs:
       shell: cmd
 
     - name: Test
-      run: .\capital_cities_game.exe
+      run: |
+        echo "Running capital_cities_game.exe..."
+        .\capital_cities_game.exe
       shell: cmd
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: capital-cities-game
-        path: capital_cities_game.exe
+        path: |
+          capital_cities_game.exe
+          capital_cities.txt
