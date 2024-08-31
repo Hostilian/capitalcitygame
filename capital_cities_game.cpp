@@ -9,11 +9,13 @@
 #include <chrono>
 #include <iomanip>
 #include <filesystem>
+#include <cctype>
 
 struct CityCountryPair {
     std::string country;
     std::string capital;
     std::string continent;
+    std::vector<std::string> variations;
 };
 
 class CapitalCitiesGame {
@@ -45,11 +47,54 @@ private:
                 pair.country = line.substr(0, pos1);
                 pair.capital = line.substr(pos1 + 1, pos2 - pos1 - 1);
                 pair.continent = line.substr(pos2 + 1);
+
+                // Add variations
+                if (pair.country == "United States") {
+                    pair.variations = {"USA", "U.S.A.", "U.S.", "America"};
+                } else if (pair.country == "United Kingdom") {
+                    pair.variations = {"UK", "U.K.", "Britain", "Great Britain"};
+                }
+                // Add more variations for other countries as needed
+
                 data.push_back(pair);
             }
         }
         file.close();
         std::cout << "Loaded " << data.size() << " city-country pairs." << std::endl;
+    }
+
+    std::string normalizeInput(const std::string& input) {
+        std::string normalized = input;
+        // Convert to lowercase
+        std::transform(normalized.begin(), normalized.end(), normalized.begin(),
+            [](unsigned char c){ return std::tolower(c); });
+        // Remove punctuation
+        normalized.erase(std::remove_if(normalized.begin(), normalized.end(),
+            [](unsigned char c){ return std::ispunct(c); }), normalized.end());
+        // Remove extra spaces
+        normalized.erase(std::unique(normalized.begin(), normalized.end(),
+            [](char a, char b){ return std::isspace(a) && std::isspace(b); }), normalized.end());
+        // Trim leading and trailing spaces
+        normalized = normalized.substr(normalized.find_first_not_of(" \t"));
+        normalized = normalized.substr(0, normalized.find_last_not_of(" \t") + 1);
+        return normalized;
+    }
+
+    bool isCorrectAnswer(const std::string& userAnswer, const std::string& correctAnswer, const std::vector<std::string>& variations) {
+        std::string normalizedUser = normalizeInput(userAnswer);
+        std::string normalizedCorrect = normalizeInput(correctAnswer);
+
+        if (normalizedUser == normalizedCorrect) {
+            return true;
+        }
+
+        for (const auto& variation : variations) {
+            if (normalizedUser == normalizeInput(variation)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     void playGame(int mode, const std::string& selectedContinent = "") {
@@ -98,7 +143,7 @@ private:
             }
 
             total++;
-            if (userAnswer == answer) {
+            if (isCorrectAnswer(userAnswer, answer, pair.variations)) {
                 std::cout << "Correct!" << std::endl;
                 score++;
                 continentScores[pair.continent]++;
@@ -131,46 +176,52 @@ public:
         loadData();
     }
 
-    void run() {
-        while (true) {
-            std::cout << "\nCapital City Guessing Game" << std::endl;
-            std::cout << "1. Guess the capital" << std::endl;
-            std::cout << "2. Guess the country" << std::endl;
-            std::cout << "3. Mixed mode" << std::endl;
-            std::cout << "4. Play by continent" << std::endl;
-            std::cout << "5. View high scores" << std::endl;
-            std::cout << "6. Quit" << std::endl;
+    void run(bool interactive = true) {
+        if (interactive) {
+            while (true) {
+                std::cout << "\nCapital City Guessing Game" << std::endl;
+                std::cout << "1. Guess the capital" << std::endl;
+                std::cout << "2. Guess the country" << std::endl;
+                std::cout << "3. Mixed mode" << std::endl;
+                std::cout << "4. Play by continent" << std::endl;
+                std::cout << "5. View high scores" << std::endl;
+                std::cout << "6. Quit" << std::endl;
 
-            std::string choice;
-            std::cout << "Enter your choice (1-6): ";
-            std::getline(std::cin, choice);
+                std::string choice;
+                std::cout << "Enter your choice (1-6): ";
+                std::getline(std::cin, choice);
 
-            if (choice == "1" || choice == "2" || choice == "3") {
-                playGame(std::stoi(choice));
-            } else if (choice == "4") {
-                std::cout << "Enter continent name: ";
-                std::string continent;
-                std::getline(std::cin, continent);
-                playGame(3, continent);
-            } else if (choice == "5") {
-                std::cout << "\nHigh Scores by Continent:" << std::endl;
-                for (const auto& pair : continentScores) {
-                    std::cout << pair.first << ": " << pair.second << std::endl;
+                if (choice == "1" || choice == "2" || choice == "3") {
+                    playGame(std::stoi(choice));
+                } else if (choice == "4") {
+                    std::cout << "Enter continent name: ";
+                    std::string continent;
+                    std::getline(std::cin, continent);
+                    playGame(3, continent);
+                } else if (choice == "5") {
+                    std::cout << "\nHigh Scores by Continent:" << std::endl;
+                    for (const auto& pair : continentScores) {
+                        std::cout << pair.first << ": " << pair.second << std::endl;
+                    }
+                } else if (choice == "6") {
+                    std::cout << "Thanks for playing!" << std::endl;
+                    break;
+                } else {
+                    std::cout << "Invalid choice. Please try again." << std::endl;
                 }
-            } else if (choice == "6") {
-                std::cout << "Thanks for playing!" << std::endl;
-                break;
-            } else {
-                std::cout << "Invalid choice. Please try again." << std::endl;
             }
+        } else {
+            std::cout << "Running in non-interactive mode for testing..." << std::endl;
+            playGame(1); // Run the game in "Guess the capital" mode
         }
     }
 };
 
-int main() {
+int main(int argc, char* argv[]) {
     try {
         CapitalCitiesGame game;
-        game.run();
+        bool interactive = (argc < 2 || std::string(argv[1]) != "--non-interactive");
+        game.run(interactive);
     } catch (const std::exception& e) {
         std::cerr << "An error occurred: " << e.what() << std::endl;
         return 1;

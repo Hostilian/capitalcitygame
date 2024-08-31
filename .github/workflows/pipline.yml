@@ -38,7 +38,10 @@ jobs:
     - name: Build
       run: |
         g++ -std=c++17 -o capital_cities_game.exe capital_cities_game.cpp
-        if %errorlevel% neq 0 exit /b %errorlevel%
+        if %errorlevel% neq 0 (
+          echo Build failed
+          exit /b %errorlevel%
+        )
       shell: cmd
 
     - name: List directory contents after build
@@ -48,7 +51,7 @@ jobs:
     - name: Test
       run: |
         echo "Running capital_cities_game.exe..."
-        .\capital_cities_game.exe
+        .\capital_cities_game.exe < NUL
       shell: cmd
 
     - name: Upload artifact
