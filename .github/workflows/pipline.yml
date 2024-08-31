@@ -1,0 +1,25 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up MinGW
+      uses: egor-tensin/setup-mingw@v2
+      with:
+        platform: x64
+
+    - name: Build
+      run: g++ -std=c++11 -o capital_cities_game.exe capital_cities_game.cpp
+
+    - name: Test
+      run: ./capital_cities_game.exe

@@ -1,0 +1,165 @@
+United States;Washington, D.C.;North America
+Canada;Ottawa;North America
+Mexico;Mexico City;North America
+Brazil;Brasília;South America
+Argentina;Buenos Aires;South America
+United Kingdom;London;Europe
+France;Paris;Europe
+Germany;Berlin;Europe
+Italy;Rome;Europe
+Spain;Madrid;Europe
+Russia;Moscow;Europe
+China;Beijing;Asia
+Japan;Tokyo;Asia
+India;New Delhi;Asia
+Australia;Canberra;Australia
+New Zealand;Wellington;Australia
+Egypt;Cairo;Africa
+South Africa;Pretoria;Africa
+Nigeria;Abuja;Africa
+Kenya;Nairobi;Africa
+Saudi Arabia;Riyadh;Asia
+Turkey;Ankara;Asia
+Greece;Athens;Europe
+Sweden;Stockholm;Europe
+Norway;Oslo;Europe
+Finland;Helsinki;Europe
+Denmark;Copenhagen;Europe
+Netherlands;Amsterdam;Europe
+Belgium;Brussels;Europe
+Austria;Vienna;Europe
+Switzerland;Bern;Europe
+Portugal;Lisbon;Europe
+Ireland;Dublin;Europe
+Poland;Warsaw;Europe
+Czech Republic;Prague;Europe
+Hungary;Budapest;Europe
+Romania;Bucharest;Europe
+Bulgaria;Sofia;Europe
+Ukraine;Kyiv;Europe
+Belarus;Minsk;Europe
+Lithuania;Vilnius;Europe
+Latvia;Riga;Europe
+Estonia;Tallinn;Europe
+Serbia;Belgrade;Europe
+Croatia;Zagreb;Europe
+Slovenia;Ljubljana;Europe
+Slovakia;Bratislava;Europe
+Bosnia and Herzegovina;Sarajevo;Europe
+Montenegro;Podgorica;Europe
+North Macedonia;Skopje;Europe
+Albania;Tirana;Europe
+Morocco;Rabat;Africa
+Algeria;Algiers;Africa
+Tunisia;Tunis;Africa
+Libya;Tripoli;Africa
+Sudan;Khartoum;Africa
+Ethiopia;Addis Ababa;Africa
+Somalia;Mogadishu;Africa
+Ghana;Accra;Africa
+Senegal;Dakar;Africa
+Côte d'Ivoire;Yamoussoukro;Africa
+Cameroon;Yaoundé;Africa
+Mali;Bamako;Africa
+Burkina Faso;Ouagadougou;Africa
+Niger;Niamey;Africa
+Chad;N'Djamena;Africa
+Uganda;Kampala;Africa
+Tanzania;Dodoma;Africa
+Rwanda;Kigali;Africa
+Burundi;Gitega;Africa
+Madagascar;Antananarivo;Africa
+Mozambique;Maputo;Africa
+Zimbabwe;Harare;Africa
+Zambia;Lusaka;Africa
+Angola;Luanda;Africa
+Democratic Republic of the Congo;Kinshasa;Africa
+Republic of the Congo;Brazzaville;Africa
+Gabon;Libreville;Africa
+Central African Republic;Bangui;Africa
+South Sudan;Juba;Africa
+Eritrea;Asmara;Africa
+Djibouti;Djibouti;Africa
+Iran;Tehran;Asia
+Iraq;Baghdad;Asia
+Syria;Damascus;Asia
+Lebanon;Beirut;Asia
+Israel;Jerusalem;Asia
+Jordan;Amman;Asia
+Kuwait;Kuwait City;Asia
+Bahrain;Manama;Asia
+Qatar;Doha;Asia
+United Arab Emirates;Abu Dhabi;Asia
+Oman;Muscat;Asia
+Yemen;Sana'a;Asia
+Afghanistan;Kabul;Asia
+Pakistan;Islamabad;Asia
+Bangladesh;Dhaka;Asia
+Sri Lanka;Colombo;Asia
+Nepal;Kathmandu;Asia
+Bhutan;Thimphu;Asia
+Myanmar;Naypyidaw;Asia
+Thailand;Bangkok;Asia
+Vietnam;Hanoi;Asia
+Laos;Vientiane;Asia
+Cambodia;Phnom Penh;Asia
+Malaysia;Kuala Lumpur;Asia
+Singapore;Singapore;Asia
+Indonesia;Jakarta;Asia
+Philippines;Manila;Asia
+North Korea;Pyongyang;Asia
+South Korea;Seoul;Asia
+Mongolia;Ulaanbaatar;Asia
+Kazakhstan;Nur-Sultan;Asia
+Uzbekistan;Tashkent;Asia
+Turkmenistan;Ashgabat;Asia
+Kyrgyzstan;Bishkek;Asia
+Tajikistan;Dushanbe;Asia
+Azerbaijan;Baku;Asia
+Georgia;Tbilisi;Asia
+Armenia;Yerevan;Asia
+Papua New Guinea;Port Moresby;Australia
+Fiji;Suva;Australia
+Solomon Islands;Honiara;Australia
+Vanuatu;Port Vila;Australia
+Samoa;Apia;Australia
+Tonga;Nuku'alofa;Australia
+Palau;Ngerulmud;Australia
+Micronesia;Palikir;Australia
+Marshall Islands;Majuro;Australia
+Kiribati;Tarawa;Australia
+Tuvalu;Funafuti;Australia
+Chile;Santiago;South America
+Peru;Lima;South America
+Colombia;Bogotá;South America
+Venezuela;Caracas;South America
+Ecuador;Quito;South America
+Bolivia;La Paz;South America
+Paraguay;Asunción;South America
+Uruguay;Montevideo;South America
+Guyana;Georgetown;South America
+Suriname;Paramaribo;South America
+Iceland;Reykjavík;Europe
+Greenland;Nuuk;North America
+Bermuda;Hamilton;North America
+Bahamas;Nassau;North America
+Cuba;Havana;North America
+Jamaica;Kingston;North America
+Haiti;Port-au-Prince;North America
+Dominican Republic;Santo Domingo;North America
+Puerto Rico;San Juan;North America
+Antigua and Barbuda;Saint John's;North America
+Saint Kitts and Nevis;Basseterre;North America
+Dominica;Roseau;North America
+Saint Lucia;Castries;North America
+Barbados;Bridgetown;North America
+Saint Vincent and the Grenadines;Kingstown;North America
+Grenada;St. George's;North America
+Trinidad and Tobago;Port of Spain;North America
+Panama;Panama City;North America
+Costa Rica;San José;North America
+Nicaragua;Managua;North America
+Honduras;Tegucigalpa;North America
+El Salvador;San Salvador;North America
+Guatemala;Guatemala City;North America
+Belize;Belmopan;North America
