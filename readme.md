@@ -1,76 +1,46 @@
 # Capital Cities Game
 
-This is a command-line game that tests your knowledge of world capitals.
+Project for "PROGRAMMING (programs INFO ETE15E, SYI ETE56E, TF ETE28E)"
+Miriam
 
-## Building the Game
+## Description:
+This program implements a Capital Cities guessing game. It loads country-capital pairs from a file and allows users to play various game modes where they guess either the capital or the country. The game supports multiple variations of country and capital names.
 
-### Prerequisites
+Features:
+- Load data from a text file
+- Multiple game modes: guess capital, guess country, mixed mode
+- Play by continent option
+- Score tracking and timing
+- Non-interactive mode for testing
 
-- C++17 compatible compiler (e.g., GCC, MinGW, or MSVC)
-- CMake (optional, for easier building)
+## Main Variables and Data Structures:
+- `data`: Vector of `CityCountryPair` structures containing country-capital information
+- `rng`: Random number generator for shuffling questions
+- `CityCountryPair`: Structure containing country, capital, continent, and name variations
 
-### Using MinGW on Windows
+## Conceptual Program Description:
+1. The program loads data from a file
+2. It displays a menu and waits for user input
+3. Based on the chosen mode, it selects questions randomly
+4. For each question, it compares the user's answer with the correct answer and variations
+5. It keeps track of the score and time
+6. At the end, it displays the final score, success rate, and time played
 
-1. Open a command prompt in the project directory.
-2. Run the following command:
+## Input Limitations and Potential Issues:
+- Assumes the input file is correctly formatted
+- Case-insensitive and punctuation-insensitive answer checking
+- Doesn't handle word breaks at end of lines in the input file
+- Empty input file is permissible
+- File size is limited only by system resources
 
+## Compilation and Execution:
 ```
 g++ -std=c++17 -o capital_cities_game.exe capital_cities_game.cpp
+./capital_cities_game.exe
 ```
+For non-interactive mode: `./capital_cities_game.exe --non-interactive`
 
-### Using CMake
-
-1. Create a `CMakeLists.txt` file in the project directory with the following content:
-
-```cmake
-cmake_minimum_required(VERSION 3.10)
-project(CapitalCitiesGame)
-
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-add_executable(capital_cities_game capital_cities_game.cpp)
-```
-
-2. Create a build directory and navigate to it:
-
-```
-mkdir build
-cd build
-```
-
-3. Generate the build files and compile:
-
-```
-cmake ..
-cmake --build .
-```
-
-## Running the Game
-
-1. Ensure that `capital_cities_game.exe` and `capital_cities.txt` are in the same directory.
-2. Run the executable:
-   - On Windows: `.\capital_cities_game.exe`
-   - On Linux/macOS: `./capital_cities_game`
-
-## Playing the Game
-
-1. Choose a game mode:
-   - Guess the capital
-   - Guess the country
-   - Mixed mode
-   - Play by continent
-2. Answer the questions by typing the name of the capital or country.
-3. Type 'stop' at any time to end the current game.
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch for your feature
-3. Commit your changes
-4. Push to your branch
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## File Structure:
+- `capital_cities_game.cpp`: Main source code
+- `capital_cities.txt`: Input file with country-capital pairs
+- `capital_cities_game.exe`: Compiled executable
